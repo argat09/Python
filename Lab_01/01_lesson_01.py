@@ -6,7 +6,6 @@ x=[1,10,1000]
 a = np.e**(1/(np.sin(x)+1))
 
 for i in x:
-    print (i)
     b = 5/4 +(i**1)*15
     y = (np.log(a/b)) / (np.log(1+i**2))
 
